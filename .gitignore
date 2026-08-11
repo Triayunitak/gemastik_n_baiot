@@ -19,6 +19,7 @@ yarn-error.log
 # Mengabaikan file rahasia & konfigurasi lokal
 .env
 .env.backup
+.venv
 
 # Mengabaikan cache & log framework (seperti Laravel)
 /bootstrap/cache/
