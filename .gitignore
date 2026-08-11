@@ -3,3 +3,24 @@
 
 # Ada Library Information
 *.ali
+
+# =========================
+# TAMBAHAN UNTUK WEB & PHP
+# =========================
+
+# Mengabaikan folder dependencies PHP (Composer)
+/vendor/
+
+# Mengabaikan folder dependencies Frontend (Node.js/Tailwind/Alpine)
+/node_modules/
+npm-debug.log
+yarn-error.log
+
+# Mengabaikan file rahasia & konfigurasi lokal
+.env
+.env.backup
+
+# Mengabaikan cache & log framework (seperti Laravel)
+/bootstrap/cache/
+/storage/
+*.log
